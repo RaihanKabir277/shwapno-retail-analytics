@@ -1,0 +1,51 @@
+Outlet_ID,region,store_type,target_sales,actual_sales,sales_gap,gap_pct,performance_tier
+OT038,Rajshahi,Superstore,3439973,5156040.68,1716067.68,49.89,On/Above Target
+OT031,Barisal,Flagship,5133281,5058337.27,-74943.7300000005,-1.46,Slightly Under
+OT020,Mymensingh,Superstore,3336466,4929285,1592819,47.74,On/Above Target
+OT039,Barisal,Flagship,5167955,4900183.74,-267771.26,-5.18,Slightly Under
+OT022,Dhaka,Superstore,3646692,4686979.27,1040287.27,28.53,On/Above Target
+OT016,Rajshahi,Superstore,3489600,4625906.97,1136306.97,32.56,On/Above Target
+OT050,Dhaka,Superstore,3542357,4563641.24,1021284.24,28.83,On/Above Target
+OT027,Khulna,Superstore,3352953,4524370.06,1171417.06,34.94,On/Above Target
+OT014,Chittagong,Superstore,3629588,4471644.41,842056.41,23.2,On/Above Target
+OT009,Dhaka,Flagship,4865444,4467405.11,-398038.89,-8.18,Slightly Under
+OT010,Chittagong,Flagship,4998461,3948237.24,-1050223.76,-21.01,Critical
+OT021,Khulna,Flagship,4824025,3856623.73,-967401.27,-20.05,Critical
+OT046,Chittagong,Flagship,5080043,3812439.12,-1267603.88,-24.95,Critical
+OT030,Dhaka,Superstore,3537717,3803443.05,265726.05,7.51,On/Above Target
+OT026,Sylhet,Flagship,4922049,3606832.04,-1315216.96,-26.72,Critical
+OT007,Dhaka,Superstore,3540870,3554350.96,13480.96,0.38,On/Above Target
+OT023,Dhaka,Superstore,3419484,3322102,-97382,-2.85,Slightly Under
+OT011,Chittagong,Superstore,3341313,3249932.06,-91380.9399999999,-2.73,Slightly Under
+OT006,Barisal,Superstore,3682589,3184305.16,-498283.84,-13.53,At Risk
+OT003,Barisal,Flagship,5116526,3137709.45,-1978816.55,-38.68,Critical
+OT032,Rajshahi,Superstore,3491277,3100975.77,-390301.23,-11.18,At Risk
+OT019,Dhaka,Express,2169398,3046190.51,876792.51,40.42,On/Above Target
+OT017,Dhaka,Express,2102698,2887064.83,784366.83,37.3,On/Above Target
+OT033,Chittagong,Superstore,3385277,2853309.6,-531967.4,-15.71,At Risk
+OT040,Chittagong,Express,2158375,2827453.32,669078.32,31,On/Above Target
+OT029,Chittagong,Express,1945738,2690613.24,744875.24,38.28,On/Above Target
+OT028,Dhaka,Express,1999295,2635097.73,635802.73,31.8,On/Above Target
+OT043,Khulna,Superstore,3619360,2532354.17,-1087005.83,-30.03,Critical
+OT042,Sylhet,Express,1837435,2516841.94,679406.94,36.98,On/Above Target
+OT048,Chittagong,Express,1928351,2489030.76,560679.76,29.08,On/Above Target
+OT045,Khulna,Superstore,3389725,2283875.78,-1105849.22,-32.62,Critical
+OT037,Sylhet,Express,2151364,2172571.12,21207.1200000001,0.99,On/Above Target
+OT015,Dhaka,Superstore,3624282,2075006.78,-1549275.22,-42.75,Critical
+OT041,Dhaka,Superstore,3639757,1893809.07,-1745947.93,-47.97,Critical
+OT005,Rajshahi,Superstore,3322780,1887679.4,-1435100.6,-43.19,Critical
+OT024,Khulna,Express,1951722,1611428.95,-340293.05,-17.44,At Risk
+OT025,Sylhet,Express,1841833,1565645.42,-276187.58,-15,At Risk
+OT001,Mymensingh,Express,1988208,1520670.99,-467537.01,-23.52,Critical
+OT047,Rajshahi,Express,2182272,1508212.3,-674059.7,-30.89,Critical
+OT012,Dhaka,Mini,1089428,1455884.4,366456.4,33.64,On/Above Target
+OT049,Dhaka,Express,1885669,1381179.39,-504489.61,-26.75,Critical
+OT035,Chittagong,Mini,986264,1371880.88,385616.88,39.1,On/Above Target
+OT013,Khulna,Mini,953709,1350332.23,396623.23,41.59,On/Above Target
+OT008,Dhaka,Mini,1081137,1323829.98,242692.98,22.45,On/Above Target
+OT004,Barisal,Express,1938685,1177507.72,-761177.28,-39.26,Critical
+OT002,Khulna,Mini,980331,1165428.52,185097.52,18.88,On/Above Target
+OT018,Khulna,Express,1900814,1127623.91,-773190.09,-40.68,Critical
+OT034,Dhaka,Mini,994081,964874.71,-29206.29,-2.94,Slightly Under
+OT036,Chittagong,Mini,909842,810356.25,-99485.75,-10.93,At Risk
+OT044,Rajshahi,Mini,1132911,741962.43,-390948.57,-34.51,Critical

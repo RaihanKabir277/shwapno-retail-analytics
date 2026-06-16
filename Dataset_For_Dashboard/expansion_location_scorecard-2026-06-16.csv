@@ -1,0 +1,8 @@
+Location,existing_outlets,total_sales,avg_sales_per_outlet,avg_gap_pct,gap_status
+Rajshahi,6,17020777.55,2836796.26,-6.22,Underperforming
+Chittagong,10,28524896.88,2852489.69,8.53,Overperforming
+Dhaka,15,42060859.03,2804057.27,6.63,Overperforming
+Khulna,8,18452037.35,2306504.67,-5.68,Underperforming
+Sylhet,4,9861890.52,2465472.63,-0.94,Underperforming
+Barisal,5,17458043.34,3491608.67,-19.62,Underperforming
+Mymensingh,2,6449955.99,3224978,12.11,Overperforming

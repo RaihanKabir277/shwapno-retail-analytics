@@ -1,0 +1,11 @@
+Age_Group,Gender,customer_count,avg_purchase_frequency,avg_basket_value,avg_total_spend,total_segment_spend,segment_tier
+18-24,Male,379,1.72,149.83,258.67,98035.53,Low Value
+35-44,Female,611,4.55,454.92,2080.28,1271053.11,High Value
+18-24,Female,375,1.6,149.17,237.77,89164.06,Low Value
+25-34,Male,732,3.59,300.05,1078.41,789395.13,Mid Value
+25-34,Female,777,3.48,302.23,1048.71,814846.44,Mid Value
+55+,Female,294,2.48,344.9,855.97,251654.13,Low Value
+35-44,Male,621,4.54,445.78,2018.94,1253760.06,High Value
+45-54,Female,465,3.8,394.21,1507.09,700797.31,Mid Value
+45-54,Male,469,3.68,397.23,1473.02,690846.54,Mid Value
+55+,Male,277,2.57,351.9,908.11,251545.84,Low Value

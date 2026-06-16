@@ -1,0 +1,348 @@
+Employee_ID,Outlet_ID,Location,Position,KPI_Target,KPI_Achievement_Pct,kpi_vs_target,rank_top,rank_bottom,performance_label
+EMP0085,OT012,Dhaka,Store Manager,100,130,30,1,342,Top Performer
+EMP0115,OT017,Dhaka,Store Manager,100,130,30,1,342,Top Performer
+EMP0116,OT017,Dhaka,Assistant Manager,90,130,40,1,342,Top Performer
+EMP0127,OT019,Dhaka,Sales Associate,80,130,50,1,342,Top Performer
+EMP0256,OT038,Rajshahi,Store Manager,100,130,30,1,342,Top Performer
+EMP0260,OT038,Rajshahi,Stock Clerk,70,130,60,1,342,Top Performer
+EMP0131,OT020,Mymensingh,Assistant Manager,90,129.8,39.8,7,341,Top Performer
+EMP0126,OT019,Dhaka,Assistant Manager,90,128.6,38.6,8,340,Top Performer
+EMP0086,OT012,Dhaka,Assistant Manager,90,128.5,38.5,9,339,Top Performer
+EMP0130,OT020,Mymensingh,Store Manager,100,128.1,28.1,10,338,Top Performer
+EMP0151,OT022,Dhaka,Assistant Manager,90,127.6,37.6,11,337,Top Performer
+EMP0136,OT020,Mymensingh,Stock Clerk,70,127.1,57.1,12,336,Top Performer
+EMP0276,OT040,Chittagong,Store Manager,100,126.8,26.8,13,335,Top Performer
+EMP0346,OT050,Dhaka,Stock Clerk,70,124.3,54.3,14,334,Top Performer
+EMP0150,OT022,Dhaka,Store Manager,100,123.7,23.7,15,333,Top Performer
+EMP0128,OT019,Dhaka,Cashier,75,122.8,47.8,16,332,Top Performer
+EMP0110,OT016,Rajshahi,Cashier,75,121.8,46.8,17,331,Top Performer
+EMP0345,OT050,Dhaka,Stock Clerk,70,121.6,51.6,18,330,Top Performer
+EMP0261,OT038,Rajshahi,Stock Clerk,70,121.5,51.5,19,329,Top Performer
+EMP0093,OT014,Chittagong,Sales Associate,80,121.4,41.4,20,328,Top Performer
+EMP0245,OT035,Chittagong,Store Manager,100,120.5,20.5,21,327,Top Performer
+EMP0152,OT022,Dhaka,Sales Associate,80,119.8,39.8,22,326,Top Performer
+EMP0051,OT008,Dhaka,Assistant Manager,90,119.7,29.7,23,323,Top Performer
+EMP0087,OT012,Dhaka,Sales Associate,80,119.7,39.7,23,323,Top Performer
+EMP0203,OT029,Chittagong,Sales Associate,80,119.7,39.7,23,323,Top Performer
+EMP0096,OT014,Chittagong,Stock Clerk,70,119.4,49.4,26,322,Top Performer
+EMP0200,OT028,Dhaka,Stock Clerk,70,118.7,48.7,27,321,Top Performer
+EMP0125,OT019,Dhaka,Store Manager,100,118.5,18.5,28,320,Top Performer
+EMP0262,OT038,Rajshahi,Stock Clerk,70,118.3,48.3,29,319,Top Performer
+EMP0333,OT048,Chittagong,Cashier,75,117.7,42.7,30,318,Top Performer
+EMP0129,OT019,Dhaka,Stock Clerk,70,117.2,47.2,31,317,Top Performer
+EMP0195,OT027,Khulna,Stock Clerk,70,117,47,32,316,Top Performer
+EMP0133,OT020,Mymensingh,Cashier,75,116.7,41.7,33,314,Top Performer
+EMP0340,OT050,Dhaka,Store Manager,100,116.7,16.7,33,314,Top Performer
+EMP0258,OT038,Rajshahi,Sales Associate,80,116.5,36.5,35,313,Top Performer
+EMP0279,OT040,Chittagong,Cashier,75,116.4,41.4,36,312,Top Performer
+EMP0290,OT042,Sylhet,Assistant Manager,90,116,26,37,311,Top Performer
+EMP0277,OT040,Chittagong,Assistant Manager,90,115.9,25.9,38,310,Top Performer
+EMP0202,OT029,Chittagong,Assistant Manager,90,115.4,25.4,39,309,Top Performer
+EMP0118,OT017,Dhaka,Cashier,75,115.3,40.3,40,308,Top Performer
+EMP0137,OT020,Mymensingh,Stock Clerk,70,115.1,45.1,41,307,Top Performer
+EMP0157,OT022,Dhaka,Stock Clerk,70,114.9,44.9,42,306,Top Performer
+EMP0113,OT016,Rajshahi,Stock Clerk,70,114.6,44.6,43,304,Top Performer
+EMP0330,OT048,Chittagong,Store Manager,100,114.6,14.6,43,304,Top Performer
+EMP0090,OT013,Khulna,Sales Associate,80,114.1,34.1,45,303,Top Performer
+EMP0263,OT038,Rajshahi,Stock Clerk,70,113.8,43.8,46,302,Top Performer
+EMP0188,OT027,Khulna,Store Manager,100,113.4,13.4,47,301,Top Performer
+EMP0347,OT050,Dhaka,Stock Clerk,70,113,43,48,300,Top Performer
+EMP0091,OT014,Chittagong,Store Manager,100,112.9,12.9,49,298,Top Performer
+EMP0108,OT016,Rajshahi,Assistant Manager,90,112.9,22.9,49,298,Top Performer
+EMP0334,OT048,Chittagong,Stock Clerk,70,112.7,42.7,51,297,Top Performer
+EMP0246,OT035,Chittagong,Assistant Manager,90,112.5,22.5,52,295,Top Performer
+EMP0344,OT050,Dhaka,Stock Clerk,70,112.5,42.5,52,295,Top Performer
+EMP0132,OT020,Mymensingh,Sales Associate,80,112.4,32.4,54,293,Top Performer
+EMP0197,OT028,Dhaka,Assistant Manager,90,112.4,22.4,54,293,Top Performer
+EMP0092,OT014,Chittagong,Assistant Manager,90,112.3,22.3,56,292,Top Performer
+EMP0201,OT029,Chittagong,Store Manager,100,112,12,57,291,Top Performer
+EMP0114,OT016,Rajshahi,Stock Clerk,70,111.9,41.9,58,290,Top Performer
+EMP0095,OT014,Chittagong,Stock Clerk,70,111.6,41.6,59,289,Top Performer
+EMP0259,OT038,Rajshahi,Cashier,75,111.3,36.3,60,288,Top Performer
+EMP0109,OT016,Rajshahi,Sales Associate,80,111,31,61,287,Top Performer
+EMP0135,OT020,Mymensingh,Stock Clerk,70,110.9,40.9,62,286,Top Performer
+EMP0204,OT029,Chittagong,Cashier,75,110.3,35.3,63,285,Top Performer
+EMP0199,OT028,Dhaka,Cashier,75,110.1,35.1,64,284,Top Performer
+EMP0190,OT027,Khulna,Sales Associate,80,109.6,29.6,65,283,Top Performer
+EMP0112,OT016,Rajshahi,Stock Clerk,70,109.2,39.2,66,281,Top Performer
+EMP0205,OT029,Chittagong,Stock Clerk,70,109.2,39.2,66,281,Top Performer
+EMP0257,OT038,Rajshahi,Assistant Manager,90,109.1,19.1,68,280,Top Performer
+EMP0117,OT017,Dhaka,Sales Associate,80,108.8,28.8,69,279,Top Performer
+EMP0280,OT040,Chittagong,Stock Clerk,70,108.6,38.6,70,278,Top Performer
+EMP0289,OT042,Sylhet,Store Manager,100,108.2,8.2,71,277,Top Performer
+EMP0196,OT028,Dhaka,Store Manager,100,108.1,8.1,72,274,Top Performer
+EMP0247,OT035,Chittagong,Sales Associate,80,108.1,28.1,72,274,Top Performer
+EMP0278,OT040,Chittagong,Sales Associate,80,108.1,28.1,72,274,Top Performer
+EMP0050,OT008,Dhaka,Store Manager,100,107.6,7.6,75,273,Top Performer
+EMP0098,OT014,Chittagong,Stock Clerk,70,107.1,37.1,76,272,Top Performer
+EMP0192,OT027,Khulna,Stock Clerk,70,106.8,36.8,77,270,Top Performer
+EMP0332,OT048,Chittagong,Sales Associate,80,106.8,26.8,77,270,Top Performer
+EMP0119,OT017,Dhaka,Stock Clerk,70,106.6,36.6,79,266,Top Performer
+EMP0134,OT020,Mymensingh,Stock Clerk,70,106.6,36.6,79,266,Top Performer
+EMP0342,OT050,Dhaka,Sales Associate,80,106.6,26.6,79,266,Top Performer
+EMP0343,OT050,Dhaka,Cashier,75,106.6,31.6,79,266,Top Performer
+EMP0189,OT027,Khulna,Assistant Manager,90,106.5,16.5,83,264,Top Performer
+EMP0193,OT027,Khulna,Stock Clerk,70,106.5,36.5,83,264,Top Performer
+EMP0291,OT042,Sylhet,Sales Associate,80,106.4,26.4,85,263,Top Performer
+EMP0006,OT002,Khulna,Store Manager,100,106.3,6.3,86,262,Top Performer
+EMP0154,OT022,Dhaka,Stock Clerk,70,106.2,36.2,87,261,Top Performer
+EMP0007,OT002,Khulna,Assistant Manager,90,105.1,15.1,88,260,Top Performer
+EMP0097,OT014,Chittagong,Stock Clerk,70,104.9,34.9,89,259,Top Performer
+EMP0111,OT016,Rajshahi,Stock Clerk,70,104.7,34.7,90,258,Top Performer
+EMP0094,OT014,Chittagong,Cashier,75,104.3,29.3,91,257,Top Performer
+EMP0331,OT048,Chittagong,Assistant Manager,90,104,14,92,256,Top Performer
+EMP0088,OT013,Khulna,Store Manager,100,103.3,3.3,93,254,Top Performer
+EMP0293,OT042,Sylhet,Stock Clerk,70,103.3,33.3,93,254,Top Performer
+EMP0254,OT037,Sylhet,Cashier,75,103.2,28.2,95,253,Top Performer
+EMP0153,OT022,Dhaka,Cashier,75,102.2,27.2,96,252,Top Performer
+EMP0341,OT050,Dhaka,Assistant Manager,90,102.1,12.1,97,251,Top Performer
+EMP0194,OT027,Khulna,Stock Clerk,70,102,32,98,250,Top Performer
+EMP0191,OT027,Khulna,Cashier,75,101.9,26.9,99,249,Top Performer
+EMP0155,OT022,Dhaka,Stock Clerk,70,101.8,31.8,100,247,Top Performer
+EMP0252,OT037,Sylhet,Assistant Manager,90,101.8,11.8,100,247,Top Performer
+EMP0089,OT013,Khulna,Assistant Manager,90,101.5,11.5,102,246,Top Performer
+EMP0052,OT008,Dhaka,Sales Associate,80,101.3,21.3,103,244,Top Performer
+EMP0156,OT022,Dhaka,Stock Clerk,70,101.3,31.3,103,244,Top Performer
+EMP0253,OT037,Sylhet,Sales Associate,80,100.9,20.9,105,243,Top Performer
+EMP0198,OT028,Dhaka,Sales Associate,80,100.5,20.5,106,242,Top Performer
+EMP0251,OT037,Sylhet,Store Manager,100,100.2,0.2,107,241,Top Performer
+EMP0107,OT016,Rajshahi,Store Manager,100,99.9,-0.1,108,240,Good
+EMP0217,OT031,Barisal,Cashier,75,99.4,24.4,109,239,Good
+EMP0224,OT031,Barisal,Stock Clerk,70,99.3,29.3,110,238,Good
+EMP0223,OT031,Barisal,Stock Clerk,70,97.7,27.7,111,236,Good
+EMP0225,OT031,Barisal,Stock Clerk,70,97.7,27.7,111,236,Good
+EMP0219,OT031,Barisal,Stock Clerk,70,97.3,27.3,113,234,Good
+EMP0292,OT042,Sylhet,Cashier,75,97.3,22.3,113,234,Good
+EMP0208,OT030,Dhaka,Sales Associate,80,97.1,17.1,115,233,Good
+EMP0221,OT031,Barisal,Stock Clerk,70,96.4,26.4,116,232,Good
+EMP0008,OT002,Khulna,Sales Associate,80,94.1,14.1,117,231,Good
+EMP0207,OT030,Dhaka,Assistant Manager,90,93.3,3.3,118,229,Good
+EMP0209,OT030,Dhaka,Cashier,75,93.3,18.3,118,229,Good
+EMP0163,OT023,Dhaka,Stock Clerk,70,93,23,120,228,Good
+EMP0043,OT007,Dhaka,Assistant Manager,90,92.6,2.6,121,227,Good
+EMP0084,OT011,Chittagong,Stock Clerk,70,92.5,22.5,122,226,Good
+EMP0270,OT039,Barisal,Stock Clerk,70,92.3,22.3,123,224,Good
+EMP0274,OT039,Barisal,Stock Clerk,70,92.3,22.3,123,224,Good
+EMP0158,OT023,Dhaka,Store Manager,100,92.1,-7.9,125,223,Good
+EMP0216,OT031,Barisal,Sales Associate,80,91.3,11.3,126,222,Good
+EMP0268,OT039,Barisal,Stock Clerk,70,90.7,20.7,127,221,Good
+EMP0220,OT031,Barisal,Stock Clerk,70,90.3,20.3,128,220,Good
+EMP0061,OT009,Dhaka,Stock Clerk,70,89.4,19.4,129,219,Good
+EMP0058,OT009,Dhaka,Stock Clerk,70,89.2,19.2,130,218,Good
+EMP0273,OT039,Barisal,Stock Clerk,70,89.1,19.1,131,217,Good
+EMP0160,OT023,Dhaka,Sales Associate,80,88.9,8.9,132,216,Good
+EMP0047,OT007,Dhaka,Stock Clerk,70,88.6,18.6,133,215,Good
+EMP0045,OT007,Dhaka,Cashier,75,87.2,12.2,134,214,Good
+EMP0229,OT032,Rajshahi,Cashier,75,86.8,11.8,135,213,Good
+EMP0164,OT023,Dhaka,Stock Clerk,70,86.5,16.5,136,212,Good
+EMP0265,OT039,Barisal,Assistant Manager,90,85.9,-4.1,137,211,Good
+EMP0269,OT039,Barisal,Stock Clerk,70,85.5,15.5,138,210,Good
+EMP0159,OT023,Dhaka,Assistant Manager,90,85.4,-4.6,139,209,Good
+EMP0267,OT039,Barisal,Cashier,75,85.3,10.3,140,208,Good
+EMP0210,OT030,Dhaka,Stock Clerk,70,84.4,14.4,141,207,Good
+EMP0083,OT011,Chittagong,Stock Clerk,70,84.2,14.2,142,206,Good
+EMP0211,OT030,Dhaka,Stock Clerk,70,83.7,13.7,143,205,Good
+EMP0214,OT031,Barisal,Store Manager,100,83.3,-16.7,144,204,Good
+EMP0082,OT011,Chittagong,Stock Clerk,70,83,13,145,202,Good
+EMP0226,OT032,Rajshahi,Store Manager,100,83,-17,145,202,Good
+EMP0242,OT034,Dhaka,Store Manager,100,82.5,-17.5,147,200,Good
+EMP0275,OT039,Barisal,Stock Clerk,70,82.5,12.5,147,200,Good
+EMP0235,OT033,Chittagong,Assistant Manager,90,82.4,-7.6,149,199,Good
+EMP0248,OT036,Chittagong,Store Manager,100,82.1,-17.9,150,198,Good
+EMP0037,OT006,Barisal,Cashier,75,81.8,6.8,151,197,Good
+EMP0040,OT006,Barisal,Stock Clerk,70,81.7,11.7,152,196,Good
+EMP0044,OT007,Dhaka,Sales Associate,80,81,1,153,195,Good
+EMP0063,OT009,Dhaka,Stock Clerk,70,80.7,10.7,154,194,Good
+EMP0072,OT010,Chittagong,Stock Clerk,70,80.6,10.6,155,191,Good
+EMP0212,OT030,Dhaka,Stock Clerk,70,80.6,10.6,155,191,Good
+EMP0255,OT037,Sylhet,Stock Clerk,70,80.6,10.6,155,191,Good
+EMP0038,OT006,Barisal,Stock Clerk,70,80.5,10.5,158,190,Good
+EMP0236,OT033,Chittagong,Sales Associate,80,80.4,0.4,159,189,Good
+EMP0070,OT010,Chittagong,Stock Clerk,70,80.1,10.1,160,187,Good
+EMP0161,OT023,Dhaka,Cashier,75,80.1,5.1,160,187,Good
+EMP0077,OT011,Chittagong,Store Manager,100,79.7,-20.3,162,186,Average
+EMP0241,OT033,Chittagong,Stock Clerk,70,79.6,9.6,163,185,Average
+EMP0162,OT023,Dhaka,Stock Clerk,70,79.1,9.1,164,184,Average
+EMP0243,OT034,Dhaka,Assistant Manager,90,78.8,-11.2,165,183,Average
+EMP0165,OT023,Dhaka,Stock Clerk,70,78.7,8.7,166,182,Average
+EMP0066,OT010,Chittagong,Assistant Manager,90,78.5,-11.5,167,181,Average
+EMP0206,OT030,Dhaka,Store Manager,100,78.4,-21.6,168,180,Average
+EMP0065,OT010,Chittagong,Store Manager,100,78.3,-21.7,169,177,Average
+EMP0081,OT011,Chittagong,Stock Clerk,70,78.3,8.3,169,177,Average
+EMP0233,OT032,Rajshahi,Stock Clerk,70,78.3,8.3,169,177,Average
+EMP0139,OT021,Khulna,Assistant Manager,90,77.8,-12.2,172,176,Average
+EMP0168,OT024,Khulna,Sales Associate,80,77.7,-2.3,173,175,Average
+EMP0080,OT011,Chittagong,Cashier,75,77.5,2.5,174,174,Average
+EMP0319,OT046,Chittagong,Stock Clerk,70,77.4,7.4,175,173,Average
+EMP0213,OT030,Dhaka,Stock Clerk,70,77.3,7.3,176,172,Average
+EMP0003,OT001,Mymensingh,Sales Associate,80,76.9,-3.1,177,171,Average
+EMP0323,OT046,Chittagong,Stock Clerk,70,76.8,6.8,178,170,Average
+EMP0048,OT007,Dhaka,Stock Clerk,70,76.4,6.4,179,169,Average
+EMP0042,OT007,Dhaka,Store Manager,100,76.2,-23.8,180,167,Average
+EMP0302,OT044,Rajshahi,Store Manager,100,76.2,-23.8,180,167,Average
+EMP0046,OT007,Dhaka,Stock Clerk,70,76.1,6.1,182,165,Average
+EMP0079,OT011,Chittagong,Sales Associate,80,76.1,-3.9,182,165,Average
+EMP0172,OT025,Sylhet,Assistant Manager,90,76,-14,184,163,Average
+EMP0304,OT044,Rajshahi,Sales Associate,80,76,-4,184,163,Average
+EMP0073,OT010,Chittagong,Stock Clerk,70,75.7,5.7,186,161,Average
+EMP0184,OT026,Sylhet,Stock Clerk,70,75.7,5.7,186,161,Average
+EMP0215,OT031,Barisal,Assistant Manager,90,75.4,-14.6,188,159,Average
+EMP0271,OT039,Barisal,Stock Clerk,70,75.4,5.4,188,159,Average
+EMP0178,OT026,Sylhet,Sales Associate,80,75.3,-4.7,190,158,Average
+EMP0222,OT031,Barisal,Stock Clerk,70,75.2,5.2,191,157,Average
+EMP0049,OT007,Dhaka,Stock Clerk,70,75.1,5.1,192,156,Average
+EMP0075,OT010,Chittagong,Stock Clerk,70,74.9,4.9,193,155,Average
+EMP0175,OT025,Sylhet,Stock Clerk,70,74.8,4.8,194,154,Average
+EMP0183,OT026,Sylhet,Stock Clerk,70,74.7,4.7,195,153,Average
+EMP0078,OT011,Chittagong,Assistant Manager,90,74,-16,196,152,Average
+EMP0060,OT009,Dhaka,Stock Clerk,70,73.5,3.5,197,151,Average
+EMP0171,OT025,Sylhet,Store Manager,100,72.8,-27.2,198,150,Average
+EMP0218,OT031,Barisal,Stock Clerk,70,72.7,2.7,199,148,Average
+EMP0321,OT046,Chittagong,Stock Clerk,70,72.7,2.7,199,148,Average
+EMP0301,OT043,Khulna,Stock Clerk,70,72.6,2.6,201,147,Average
+EMP0055,OT009,Dhaka,Sales Associate,80,72.3,-7.7,202,146,Average
+EMP0264,OT039,Barisal,Store Manager,100,72.2,-27.8,203,145,Average
+EMP0144,OT021,Khulna,Stock Clerk,70,72.1,2.1,204,144,Average
+EMP0238,OT033,Chittagong,Stock Clerk,70,71.9,1.9,205,142,Average
+EMP0295,OT043,Khulna,Assistant Manager,90,71.9,-18.1,205,142,Average
+EMP0250,OT036,Chittagong,Sales Associate,80,71.3,-8.7,207,141,Average
+EMP0034,OT006,Barisal,Store Manager,100,71.2,-28.8,208,139,Average
+EMP0140,OT021,Khulna,Sales Associate,80,71.2,-8.8,208,139,Average
+EMP0316,OT046,Chittagong,Cashier,75,71.1,-3.9,210,138,Average
+EMP0064,OT009,Dhaka,Stock Clerk,70,70.9,0.9,211,137,Average
+EMP0234,OT033,Chittagong,Store Manager,100,70.5,-29.5,212,135,Average
+EMP0314,OT046,Chittagong,Assistant Manager,90,70.5,-19.5,212,135,Average
+EMP0035,OT006,Barisal,Assistant Manager,90,70,-20,214,134,Average
+EMP0231,OT032,Rajshahi,Stock Clerk,70,69.8,-0.2,215,132,Average
+EMP0272,OT039,Barisal,Stock Clerk,70,69.8,-0.2,215,132,Average
+EMP0041,OT006,Barisal,Stock Clerk,70,69.7,-0.3,217,131,Average
+EMP0036,OT006,Barisal,Sales Associate,80,69.5,-10.5,218,129,Average
+EMP0179,OT026,Sylhet,Cashier,75,69.5,-5.5,218,129,Average
+EMP0266,OT039,Barisal,Sales Associate,80,68.9,-11.1,220,128,Average
+EMP0237,OT033,Chittagong,Cashier,75,68.8,-6.2,221,127,Average
+EMP0057,OT009,Dhaka,Stock Clerk,70,68.6,-1.4,222,126,Average
+EMP0170,OT024,Khulna,Stock Clerk,70,68.5,-1.5,223,125,Average
+EMP0294,OT043,Khulna,Store Manager,100,68.4,-31.6,224,124,Average
+EMP0056,OT009,Dhaka,Cashier,75,68.3,-6.7,225,122,Average
+EMP0149,OT021,Khulna,Stock Clerk,70,68.3,-1.7,225,122,Average
+EMP0244,OT034,Dhaka,Sales Associate,80,68,-12,227,121,Average
+EMP0312,OT045,Khulna,Stock Clerk,70,67.9,-2.1,228,119,Average
+EMP0313,OT046,Chittagong,Store Manager,100,67.9,-32.1,228,119,Average
+EMP0138,OT021,Khulna,Store Manager,100,67.6,-32.4,230,118,Average
+EMP0303,OT044,Rajshahi,Assistant Manager,90,67.3,-22.7,231,117,Average
+EMP0039,OT006,Barisal,Stock Clerk,70,67.1,-2.9,232,116,Average
+EMP0317,OT046,Chittagong,Stock Clerk,70,67,-3,233,115,Average
+EMP0181,OT026,Sylhet,Stock Clerk,70,66.9,-3.1,234,113,Average
+EMP0187,OT026,Sylhet,Stock Clerk,70,66.9,-3.1,234,113,Average
+EMP0230,OT032,Rajshahi,Stock Clerk,70,66.3,-3.7,236,112,Average
+EMP0306,OT045,Khulna,Assistant Manager,90,66.2,-23.8,237,111,Average
+EMP0228,OT032,Rajshahi,Sales Associate,80,66,-14,238,109,Average
+EMP0239,OT033,Chittagong,Stock Clerk,70,66,-4,238,109,Average
+EMP0186,OT026,Sylhet,Stock Clerk,70,65.9,-4.1,240,108,Average
+EMP0059,OT009,Dhaka,Stock Clerk,70,65.6,-4.4,241,107,Average
+EMP0311,OT045,Khulna,Stock Clerk,70,65.4,-4.6,242,106,Average
+EMP0185,OT026,Sylhet,Stock Clerk,70,65.3,-4.7,243,105,Average
+EMP0325,OT047,Rajshahi,Store Manager,100,64.9,-35.1,244,104,Average
+EMP0322,OT046,Chittagong,Stock Clerk,70,64.6,-5.4,245,103,Average
+EMP0013,OT003,Barisal,Stock Clerk,70,64.5,-5.5,246,102,Average
+EMP0005,OT001,Mymensingh,Stock Clerk,70,64.3,-5.7,247,101,Average
+EMP0021,OT004,Barisal,Store Manager,100,64.2,-35.8,248,99,Average
+EMP0320,OT046,Chittagong,Stock Clerk,70,64.2,-5.8,248,99,Average
+EMP0069,OT010,Chittagong,Stock Clerk,70,64,-6,250,98,Average
+EMP0299,OT043,Khulna,Stock Clerk,70,63.7,-6.3,251,97,Average
+EMP0053,OT009,Dhaka,Store Manager,100,63.3,-36.7,252,96,Average
+EMP0180,OT026,Sylhet,Stock Clerk,70,63.2,-6.8,253,95,Average
+EMP0141,OT021,Khulna,Cashier,75,63.1,-11.9,254,94,Average
+EMP0015,OT003,Barisal,Stock Clerk,70,63,-7,255,92,Average
+EMP0166,OT024,Khulna,Store Manager,100,63,-37,255,92,Average
+EMP0067,OT010,Chittagong,Sales Associate,80,62.8,-17.2,257,91,Average
+EMP0102,OT015,Dhaka,Cashier,75,62.7,-12.3,258,89,Average
+EMP0329,OT047,Rajshahi,Stock Clerk,70,62.7,-7.3,258,89,Average
+EMP0099,OT015,Dhaka,Store Manager,100,62.3,-37.7,260,88,Average
+EMP0023,OT004,Barisal,Sales Associate,80,62.1,-17.9,261,85,Average
+EMP0227,OT032,Rajshahi,Assistant Manager,90,62.1,-27.9,261,85,Average
+EMP0307,OT045,Khulna,Sales Associate,80,62.1,-17.9,261,85,Average
+EMP0287,OT041,Dhaka,Stock Clerk,70,61.7,-8.3,264,84,Average
+EMP0001,OT001,Mymensingh,Store Manager,100,61.4,-38.6,265,83,Average
+EMP0249,OT036,Chittagong,Assistant Manager,90,61.3,-28.7,266,82,Average
+EMP0232,OT032,Rajshahi,Stock Clerk,70,60.9,-9.1,267,81,Average
+EMP0054,OT009,Dhaka,Assistant Manager,90,60.7,-29.3,268,79,Average
+EMP0062,OT009,Dhaka,Stock Clerk,70,60.7,-9.3,268,79,Average
+EMP0025,OT004,Barisal,Stock Clerk,70,60.6,-9.4,270,78,Average
+EMP0142,OT021,Khulna,Stock Clerk,70,60.5,-9.5,271,77,Average
+EMP0016,OT003,Barisal,Stock Clerk,70,59.8,-10.2,272,76,Low Performer
+EMP0002,OT001,Mymensingh,Assistant Manager,90,59.6,-30.4,273,74,Low Performer
+EMP0071,OT010,Chittagong,Stock Clerk,70,59.6,-10.4,273,74,Low Performer
+EMP0176,OT026,Sylhet,Store Manager,100,59.4,-40.6,275,73,Low Performer
+EMP0020,OT003,Barisal,Stock Clerk,70,59.3,-10.7,276,71,Low Performer
+EMP0105,OT015,Dhaka,Stock Clerk,70,59.3,-10.7,276,71,Low Performer
+EMP0074,OT010,Chittagong,Stock Clerk,70,59.2,-10.8,278,69,Low Performer
+EMP0106,OT015,Dhaka,Stock Clerk,70,59.2,-10.8,278,69,Low Performer
+EMP0101,OT015,Dhaka,Sales Associate,80,58.6,-21.4,280,68,Low Performer
+EMP0284,OT041,Dhaka,Cashier,75,58.4,-16.6,281,67,Low Performer
+EMP0017,OT003,Barisal,Stock Clerk,70,58.2,-11.8,282,66,Low Performer
+EMP0169,OT024,Khulna,Cashier,75,58.1,-16.9,283,65,Low Performer
+EMP0068,OT010,Chittagong,Cashier,75,57.8,-17.2,284,64,Low Performer
+EMP0240,OT033,Chittagong,Stock Clerk,70,57.6,-12.4,285,63,Low Performer
+EMP0328,OT047,Rajshahi,Cashier,75,56.9,-18.1,286,62,Low Performer
+EMP0315,OT046,Chittagong,Sales Associate,80,56.8,-23.2,287,61,Low Performer
+EMP0148,OT021,Khulna,Stock Clerk,70,56.7,-13.3,288,60,Low Performer
+EMP0310,OT045,Khulna,Stock Clerk,70,56.4,-13.6,289,59,Low Performer
+EMP0173,OT025,Sylhet,Sales Associate,80,56.1,-23.9,290,58,Low Performer
+EMP0012,OT003,Barisal,Cashier,75,55.9,-19.1,291,57,Low Performer
+EMP0167,OT024,Khulna,Assistant Manager,90,55.8,-34.2,292,56,Low Performer
+EMP0298,OT043,Khulna,Stock Clerk,70,55.6,-14.4,293,55,Low Performer
+EMP0318,OT046,Chittagong,Stock Clerk,70,55.5,-14.5,294,54,Low Performer
+EMP0028,OT005,Rajshahi,Sales Associate,80,55.4,-24.6,295,53,Low Performer
+EMP0029,OT005,Rajshahi,Cashier,75,55.3,-19.7,296,52,Low Performer
+EMP0143,OT021,Khulna,Stock Clerk,70,55.2,-14.8,297,51,Low Performer
+EMP0121,OT018,Khulna,Assistant Manager,90,54.4,-35.6,298,49,Low Performer
+EMP0327,OT047,Rajshahi,Sales Associate,80,54.4,-25.6,298,49,Low Performer
+EMP0009,OT003,Barisal,Store Manager,100,54.3,-45.7,300,47,Low Performer
+EMP0011,OT003,Barisal,Sales Associate,80,54.3,-25.7,300,47,Low Performer
+EMP0300,OT043,Khulna,Stock Clerk,70,54.1,-15.9,302,46,Low Performer
+EMP0174,OT025,Sylhet,Cashier,75,54,-21,303,44,Low Performer
+EMP0296,OT043,Khulna,Sales Associate,80,54,-26,303,44,Low Performer
+EMP0030,OT005,Rajshahi,Stock Clerk,70,53.9,-16.1,305,43,Low Performer
+EMP0297,OT043,Khulna,Cashier,75,53.6,-21.4,306,42,Low Performer
+EMP0027,OT005,Rajshahi,Assistant Manager,90,53.2,-36.8,307,40,Low Performer
+EMP0339,OT049,Dhaka,Stock Clerk,70,53.2,-16.8,307,40,Low Performer
+EMP0324,OT046,Chittagong,Stock Clerk,70,53.1,-16.9,309,39,Low Performer
+EMP0145,OT021,Khulna,Stock Clerk,70,52.8,-17.2,310,38,Low Performer
+EMP0076,OT010,Chittagong,Stock Clerk,70,52.6,-17.4,311,36,Low Performer
+EMP0147,OT021,Khulna,Stock Clerk,70,52.6,-17.4,311,36,Low Performer
+EMP0024,OT004,Barisal,Cashier,75,52.1,-22.9,313,35,Low Performer
+EMP0103,OT015,Dhaka,Stock Clerk,70,51.8,-18.2,314,34,Low Performer
+EMP0146,OT021,Khulna,Stock Clerk,70,51.3,-18.7,315,32,Low Performer
+EMP0309,OT045,Khulna,Stock Clerk,70,51.3,-18.7,315,32,Low Performer
+EMP0100,OT015,Dhaka,Assistant Manager,90,51.2,-38.8,317,30,Low Performer
+EMP0177,OT026,Sylhet,Assistant Manager,90,51.2,-38.8,317,30,Low Performer
+EMP0182,OT026,Sylhet,Stock Clerk,70,50.5,-19.5,319,29,Low Performer
+EMP0305,OT045,Khulna,Store Manager,100,50.3,-49.7,320,28,Low Performer
+EMP0018,OT003,Barisal,Stock Clerk,70,50.1,-19.9,321,27,Low Performer
+EMP0308,OT045,Khulna,Cashier,75,49.6,-25.4,322,26,Low Performer
+EMP0019,OT003,Barisal,Stock Clerk,70,49.3,-20.7,323,24,Low Performer
+EMP0326,OT047,Rajshahi,Assistant Manager,90,49.3,-40.7,323,24,Low Performer
+EMP0288,OT041,Dhaka,Stock Clerk,70,49.2,-20.8,325,23,Low Performer
+EMP0004,OT001,Mymensingh,Cashier,75,48.9,-26.1,326,22,Low Performer
+EMP0122,OT018,Khulna,Sales Associate,80,48.7,-31.3,327,21,Low Performer
+EMP0336,OT049,Dhaka,Assistant Manager,90,48.3,-41.7,328,20,Low Performer
+EMP0120,OT018,Khulna,Store Manager,100,47.1,-52.9,329,19,Low Performer
+EMP0022,OT004,Barisal,Assistant Manager,90,46.7,-43.3,330,18,Low Performer
+EMP0032,OT005,Rajshahi,Stock Clerk,70,46,-24,331,16,Low Performer
+EMP0281,OT041,Dhaka,Store Manager,100,46,-54,331,16,Low Performer
+EMP0338,OT049,Dhaka,Cashier,75,45.1,-29.9,333,15,Low Performer
+EMP0014,OT003,Barisal,Stock Clerk,70,44.6,-25.4,334,14,Low Performer
+EMP0335,OT049,Dhaka,Store Manager,100,44.5,-55.5,335,13,Low Performer
+EMP0337,OT049,Dhaka,Sales Associate,80,44.2,-35.8,336,12,Low Performer
+EMP0124,OT018,Khulna,Stock Clerk,70,40.5,-29.5,337,11,Low Performer
+EMP0010,OT003,Barisal,Assistant Manager,90,40,-50,338,1,Low Performer
+EMP0026,OT005,Rajshahi,Store Manager,100,40,-60,338,1,Low Performer
+EMP0031,OT005,Rajshahi,Stock Clerk,70,40,-30,338,1,Low Performer
+EMP0033,OT005,Rajshahi,Stock Clerk,70,40,-30,338,1,Low Performer
+EMP0104,OT015,Dhaka,Stock Clerk,70,40,-30,338,1,Low Performer
+EMP0123,OT018,Khulna,Cashier,75,40,-35,338,1,Low Performer
+EMP0282,OT041,Dhaka,Assistant Manager,90,40,-50,338,1,Low Performer
+EMP0283,OT041,Dhaka,Sales Associate,80,40,-40,338,1,Low Performer
+EMP0285,OT041,Dhaka,Stock Clerk,70,40,-30,338,1,Low Performer
+EMP0286,OT041,Dhaka,Stock Clerk,70,40,-30,338,1,Low Performer

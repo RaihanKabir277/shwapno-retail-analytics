@@ -1,0 +1,4 @@
+rank,recommended_location,current_outlets,demand_signal,avg_customer_spend,current_gap_pct,rationale
+1,Sylhet,4,133,1324.46,-0.94,"Highest customers/outlet (133) + highest avg spend (1,324) + only 4 outlets"
+2,Mymensingh,2,84.5,1172.51,12.11,Only 2 outlets with +12% gap performance — existing outlets overloaded
+3,Rajshahi,6,104.8,1211.07,-6.22,"Strong demand (104.8 customers/outlet) + solid avg spend (1,211)"

@@ -1,0 +1,8 @@
+Location,existing_outlets,avg_sales_per_outlet,avg_gap_pct,gap_status,total_customers,avg_total_spend,customers_per_outlet,expansion_rank,recommendation,rationale
+Rajshahi,6,2836796.26,-6.22,Underperforming,629,1211.07,104.8,3,RECOMMENDED,"Strong demand (104.8 customers/outlet) + solid avg spend (1,211)"
+Chittagong,10,2852489.69,8.53,Overperforming,1123,1203.42,112.3,5,Sufficient Coverage,Adequate outlet coverage relative to demand
+Dhaka,15,2804057.27,6.63,Overperforming,1743,1277.42,116.2,4,Sufficient Coverage,Adequate outlet coverage relative to demand
+Khulna,8,2306504.67,-5.68,Underperforming,483,1229.78,60.4,6,Sufficient Coverage,Adequate outlet coverage relative to demand
+Sylhet,4,2465472.63,-0.94,Underperforming,532,1324.46,133,1,RECOMMENDED,"Highest customers/outlet (133) + highest avg spend (1,324) + only 4 outlets"
+Barisal,5,3491608.67,-19.62,Underperforming,321,1166.93,64.2,7,Sufficient Coverage,Adequate outlet coverage relative to demand
+Mymensingh,2,3224978,12.11,Overperforming,169,1172.51,84.5,2,RECOMMENDED,Only 2 outlets with +12% gap performance — existing outlets overloaded
