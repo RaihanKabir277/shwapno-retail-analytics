@@ -1,0 +1,3052 @@
+{
+  "datasets": [
+    {
+      "name": "8e50aaac",
+      "displayName": "daily_sales_trend",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.daily_sales_trend",
+        "dimensions": [
+          {
+            "name": "Date",
+            "expr": "source.Date",
+            "displayName": "Date"
+          },
+          {
+            "name": "Outlet_ID",
+            "expr": "source.Outlet_ID",
+            "displayName": "Outlet ID"
+          },
+          {
+            "name": "region",
+            "expr": "source.region",
+            "displayName": "Region"
+          },
+          {
+            "name": "store_type",
+            "expr": "source.store_type",
+            "displayName": "Store Type"
+          },
+          {
+            "name": "daily_sales",
+            "expr": "source.daily_sales",
+            "displayName": "Daily Sales"
+          },
+          {
+            "name": "transactions",
+            "expr": "source.transactions",
+            "displayName": "Transactions"
+          },
+          {
+            "name": "customers",
+            "expr": "source.customers",
+            "displayName": "Customers"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "bfec179e",
+      "displayName": "outlet_gap_summary",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.outlet_gap_summary",
+        "dimensions": [
+          {
+            "name": "Outlet_ID",
+            "expr": "source.Outlet_ID",
+            "displayName": "Outlet ID"
+          },
+          {
+            "name": "region",
+            "expr": "source.region",
+            "displayName": "Region"
+          },
+          {
+            "name": "store_type",
+            "expr": "source.store_type",
+            "displayName": "Store Type"
+          },
+          {
+            "name": "target_sales",
+            "expr": "source.target_sales",
+            "displayName": "Target Sales"
+          },
+          {
+            "name": "actual_sales",
+            "expr": "source.actual_sales",
+            "displayName": "Actual Sales"
+          },
+          {
+            "name": "sales_gap",
+            "expr": "source.sales_gap",
+            "displayName": "Sales Gap"
+          },
+          {
+            "name": "gap_pct",
+            "expr": "source.gap_pct",
+            "displayName": "Gap Pct"
+          },
+          {
+            "name": "performance_tier",
+            "expr": "source.performance_tier",
+            "displayName": "Performance Tier"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "9f1952c4",
+      "displayName": "region_performance",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.region_performance",
+        "dimensions": [
+          {
+            "name": "region",
+            "expr": "source.region",
+            "displayName": "Region"
+          },
+          {
+            "name": "total_outlets",
+            "expr": "source.total_outlets",
+            "displayName": "Total Outlets"
+          },
+          {
+            "name": "total_target",
+            "expr": "source.total_target",
+            "displayName": "Total Target"
+          },
+          {
+            "name": "total_actual",
+            "expr": "source.total_actual",
+            "displayName": "Total Actual"
+          },
+          {
+            "name": "total_gap",
+            "expr": "source.total_gap",
+            "displayName": "Total Gap"
+          },
+          {
+            "name": "region_gap_pct",
+            "expr": "source.region_gap_pct",
+            "displayName": "Region Gap Pct"
+          },
+          {
+            "name": "outlets_missing_target",
+            "expr": "source.outlets_missing_target",
+            "displayName": "Outlets Missing Target"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "fcc53d69",
+      "displayName": "outlet_top_performers",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.outlet_top_performers",
+        "dimensions": [
+          {
+            "name": "Outlet_ID",
+            "expr": "source.Outlet_ID",
+            "displayName": "Outlet ID"
+          },
+          {
+            "name": "Location",
+            "expr": "source.Location",
+            "displayName": "Location"
+          },
+          {
+            "name": "Store_Type",
+            "expr": "source.Store_Type",
+            "displayName": "Store Type"
+          },
+          {
+            "name": "Target_Sales",
+            "expr": "source.Target_Sales",
+            "displayName": "Target Sales"
+          },
+          {
+            "name": "actual_sales",
+            "expr": "source.actual_sales",
+            "displayName": "Actual Sales"
+          },
+          {
+            "name": "sales_gap",
+            "expr": "source.sales_gap",
+            "displayName": "Sales Gap"
+          },
+          {
+            "name": "gap_pct",
+            "expr": "source.gap_pct",
+            "displayName": "Gap Pct"
+          },
+          {
+            "name": "sales_rank",
+            "expr": "source.sales_rank",
+            "displayName": "Sales Rank"
+          },
+          {
+            "name": "performance_label",
+            "expr": "source.performance_label",
+            "displayName": "Performance Label"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "a987963d",
+      "displayName": "outlet_monthly_trend",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.outlet_monthly_trend",
+        "dimensions": [
+          {
+            "name": "Outlet_ID",
+            "expr": "source.Outlet_ID",
+            "displayName": "Outlet ID"
+          },
+          {
+            "name": "Location",
+            "expr": "source.Location",
+            "displayName": "Location"
+          },
+          {
+            "name": "Store_Type",
+            "expr": "source.Store_Type",
+            "displayName": "Store Type"
+          },
+          {
+            "name": "sales_month",
+            "expr": "source.sales_month",
+            "displayName": "Sales Month"
+          },
+          {
+            "name": "month_num",
+            "expr": "source.month_num",
+            "displayName": "Month Num"
+          },
+          {
+            "name": "monthly_sales",
+            "expr": "source.monthly_sales",
+            "displayName": "Monthly Sales"
+          },
+          {
+            "name": "total_transactions",
+            "expr": "source.total_transactions",
+            "displayName": "Total Transactions"
+          },
+          {
+            "name": "total_customers",
+            "expr": "source.total_customers",
+            "displayName": "Total Customers"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "b5af9a6d",
+      "displayName": "outlet_age_performance",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.outlet_age_performance",
+        "dimensions": [
+          {
+            "name": "Outlet_ID",
+            "expr": "source.Outlet_ID",
+            "displayName": "Outlet ID"
+          },
+          {
+            "name": "Location",
+            "expr": "source.Location",
+            "displayName": "Location"
+          },
+          {
+            "name": "Store_Type",
+            "expr": "source.Store_Type",
+            "displayName": "Store Type"
+          },
+          {
+            "name": "Opening_Date",
+            "expr": "source.Opening_Date",
+            "displayName": "Opening Date"
+          },
+          {
+            "name": "outlet_age_years",
+            "expr": "source.outlet_age_years",
+            "displayName": "Outlet Age Years"
+          },
+          {
+            "name": "age_years_rounded",
+            "expr": "source.age_years_rounded",
+            "displayName": "Age Years Rounded"
+          },
+          {
+            "name": "age_category",
+            "expr": "source.age_category",
+            "displayName": "Age Category"
+          },
+          {
+            "name": "Target_Sales",
+            "expr": "source.Target_Sales",
+            "displayName": "Target Sales"
+          },
+          {
+            "name": "actual_sales",
+            "expr": "source.actual_sales",
+            "displayName": "Actual Sales"
+          },
+          {
+            "name": "gap_pct",
+            "expr": "source.gap_pct",
+            "displayName": "Gap Pct"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "7c69364d",
+      "displayName": "kpi_by_outlet",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.kpi_by_outlet",
+        "dimensions": [
+          {
+            "name": "Outlet_ID",
+            "expr": "source.Outlet_ID",
+            "displayName": "Outlet ID"
+          },
+          {
+            "name": "Location",
+            "expr": "source.Location",
+            "displayName": "Location"
+          },
+          {
+            "name": "Store_Type",
+            "expr": "source.Store_Type",
+            "displayName": "Store Type"
+          },
+          {
+            "name": "total_employees",
+            "expr": "source.total_employees",
+            "displayName": "Total Employees"
+          },
+          {
+            "name": "avg_kpi_achievement",
+            "expr": "source.avg_kpi_achievement",
+            "displayName": "Avg Kpi Achievement"
+          },
+          {
+            "name": "avg_kpi_target",
+            "expr": "source.avg_kpi_target",
+            "displayName": "Avg Kpi Target"
+          },
+          {
+            "name": "kpi_gap",
+            "expr": "source.kpi_gap",
+            "displayName": "Kpi Gap"
+          },
+          {
+            "name": "kpi_status",
+            "expr": "source.kpi_status",
+            "displayName": "Kpi Status"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "55b184a2",
+      "displayName": "employee_performance",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.employee_performance",
+        "dimensions": [
+          {
+            "name": "Employee_ID",
+            "expr": "source.Employee_ID",
+            "displayName": "Employee ID"
+          },
+          {
+            "name": "Outlet_ID",
+            "expr": "source.Outlet_ID",
+            "displayName": "Outlet ID"
+          },
+          {
+            "name": "Location",
+            "expr": "source.Location",
+            "displayName": "Location"
+          },
+          {
+            "name": "Position",
+            "expr": "source.Position",
+            "displayName": "Position"
+          },
+          {
+            "name": "KPI_Target",
+            "expr": "source.KPI_Target",
+            "displayName": "KPI Target"
+          },
+          {
+            "name": "KPI_Achievement_Pct",
+            "expr": "source.KPI_Achievement_Pct",
+            "displayName": "KPI Achievement Pct"
+          },
+          {
+            "name": "kpi_vs_target",
+            "expr": "source.kpi_vs_target",
+            "displayName": "Kpi Vs Target"
+          },
+          {
+            "name": "rank_top",
+            "expr": "source.rank_top",
+            "displayName": "Rank Top"
+          },
+          {
+            "name": "rank_bottom",
+            "expr": "source.rank_bottom",
+            "displayName": "Rank Bottom"
+          },
+          {
+            "name": "performance_label",
+            "expr": "source.performance_label",
+            "displayName": "Performance Label"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "e52e40ac",
+      "displayName": "kpi_sales_correlation",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.kpi_sales_correlation",
+        "dimensions": [
+          {
+            "name": "Outlet_ID",
+            "expr": "source.Outlet_ID",
+            "displayName": "Outlet ID"
+          },
+          {
+            "name": "Location",
+            "expr": "source.Location",
+            "displayName": "Location"
+          },
+          {
+            "name": "Store_Type",
+            "expr": "source.Store_Type",
+            "displayName": "Store Type"
+          },
+          {
+            "name": "avg_kpi_achievement",
+            "expr": "source.avg_kpi_achievement",
+            "displayName": "Avg Kpi Achievement"
+          },
+          {
+            "name": "total_sales",
+            "expr": "source.total_sales",
+            "displayName": "Total Sales"
+          },
+          {
+            "name": "Target_Sales",
+            "expr": "source.Target_Sales",
+            "displayName": "Target Sales"
+          },
+          {
+            "name": "sales_gap_pct",
+            "expr": "source.sales_gap_pct",
+            "displayName": "Sales Gap Pct"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "3f6d6b3f",
+      "displayName": "customer_segments",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.customer_segments",
+        "dimensions": [
+          {
+            "name": "Age_Group",
+            "expr": "source.Age_Group",
+            "displayName": "Age Group"
+          },
+          {
+            "name": "Gender",
+            "expr": "source.Gender",
+            "displayName": "Gender"
+          },
+          {
+            "name": "customer_count",
+            "expr": "source.customer_count",
+            "displayName": "Customer Count"
+          },
+          {
+            "name": "avg_purchase_frequency",
+            "expr": "source.avg_purchase_frequency",
+            "displayName": "Avg Purchase Frequency"
+          },
+          {
+            "name": "avg_basket_value",
+            "expr": "source.avg_basket_value",
+            "displayName": "Avg Basket Value"
+          },
+          {
+            "name": "avg_total_spend",
+            "expr": "source.avg_total_spend",
+            "displayName": "Avg Total Spend"
+          },
+          {
+            "name": "total_segment_spend",
+            "expr": "source.total_segment_spend",
+            "displayName": "Total Segment Spend"
+          },
+          {
+            "name": "segment_tier",
+            "expr": "source.segment_tier",
+            "displayName": "Segment Tier"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "8d5b8fc6",
+      "displayName": "spending_by_age",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.spending_by_age",
+        "dimensions": [
+          {
+            "name": "Age_Group",
+            "expr": "source.Age_Group",
+            "displayName": "Age Group"
+          },
+          {
+            "name": "customer_count",
+            "expr": "source.customer_count",
+            "displayName": "Customer Count"
+          },
+          {
+            "name": "avg_purchase_frequency",
+            "expr": "source.avg_purchase_frequency",
+            "displayName": "Avg Purchase Frequency"
+          },
+          {
+            "name": "avg_basket_value",
+            "expr": "source.avg_basket_value",
+            "displayName": "Avg Basket Value"
+          },
+          {
+            "name": "avg_total_spend",
+            "expr": "source.avg_total_spend",
+            "displayName": "Avg Total Spend"
+          },
+          {
+            "name": "total_spend",
+            "expr": "source.total_spend",
+            "displayName": "Total Spend"
+          },
+          {
+            "name": "min_spend",
+            "expr": "source.min_spend",
+            "displayName": "Min Spend"
+          },
+          {
+            "name": "max_spend",
+            "expr": "source.max_spend",
+            "displayName": "Max Spend"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "263b1c10",
+      "displayName": "location_purchase_patterns",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.location_purchase_patterns",
+        "dimensions": [
+          {
+            "name": "Location",
+            "expr": "source.Location",
+            "displayName": "Location"
+          },
+          {
+            "name": "customer_count",
+            "expr": "source.customer_count",
+            "displayName": "Customer Count"
+          },
+          {
+            "name": "avg_purchase_frequency",
+            "expr": "source.avg_purchase_frequency",
+            "displayName": "Avg Purchase Frequency"
+          },
+          {
+            "name": "avg_basket_value",
+            "expr": "source.avg_basket_value",
+            "displayName": "Avg Basket Value"
+          },
+          {
+            "name": "avg_total_spend",
+            "expr": "source.avg_total_spend",
+            "displayName": "Avg Total Spend"
+          },
+          {
+            "name": "total_spend",
+            "expr": "source.total_spend",
+            "displayName": "Total Spend"
+          },
+          {
+            "name": "spend_share_pct",
+            "expr": "source.spend_share_pct",
+            "displayName": "Spend Share Pct"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "d4e77e1e",
+      "displayName": "expansion_location_scorecard",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.expansion_location_scorecard",
+        "dimensions": [
+          {
+            "name": "Location",
+            "expr": "source.Location",
+            "displayName": "Location"
+          },
+          {
+            "name": "existing_outlets",
+            "expr": "source.existing_outlets",
+            "displayName": "Existing Outlets"
+          },
+          {
+            "name": "total_sales",
+            "expr": "source.total_sales",
+            "displayName": "Total Sales"
+          },
+          {
+            "name": "avg_sales_per_outlet",
+            "expr": "source.avg_sales_per_outlet",
+            "displayName": "Avg Sales Per Outlet"
+          },
+          {
+            "name": "avg_gap_pct",
+            "expr": "source.avg_gap_pct",
+            "displayName": "Avg Gap Pct"
+          },
+          {
+            "name": "gap_status",
+            "expr": "source.gap_status",
+            "displayName": "Gap Status"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "049db8ba",
+      "displayName": "expansion_customer_demand",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.expansion_customer_demand",
+        "dimensions": [
+          {
+            "name": "Location",
+            "expr": "source.Location",
+            "displayName": "Location"
+          },
+          {
+            "name": "total_customers",
+            "expr": "source.total_customers",
+            "displayName": "Total Customers"
+          },
+          {
+            "name": "avg_purchase_frequency",
+            "expr": "source.avg_purchase_frequency",
+            "displayName": "Avg Purchase Frequency"
+          },
+          {
+            "name": "avg_basket_value",
+            "expr": "source.avg_basket_value",
+            "displayName": "Avg Basket Value"
+          },
+          {
+            "name": "avg_total_spend",
+            "expr": "source.avg_total_spend",
+            "displayName": "Avg Total Spend"
+          },
+          {
+            "name": "total_customer_spend",
+            "expr": "source.total_customer_spend",
+            "displayName": "Total Customer Spend"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "7623bd66",
+      "displayName": "expansion_recommendation",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.expansion_recommendation",
+        "dimensions": [
+          {
+            "name": "Location",
+            "expr": "source.Location",
+            "displayName": "Location"
+          },
+          {
+            "name": "existing_outlets",
+            "expr": "source.existing_outlets",
+            "displayName": "Existing Outlets"
+          },
+          {
+            "name": "avg_sales_per_outlet",
+            "expr": "source.avg_sales_per_outlet",
+            "displayName": "Avg Sales Per Outlet"
+          },
+          {
+            "name": "avg_gap_pct",
+            "expr": "source.avg_gap_pct",
+            "displayName": "Avg Gap Pct"
+          },
+          {
+            "name": "gap_status",
+            "expr": "source.gap_status",
+            "displayName": "Gap Status"
+          },
+          {
+            "name": "total_customers",
+            "expr": "source.total_customers",
+            "displayName": "Total Customers"
+          },
+          {
+            "name": "avg_total_spend",
+            "expr": "source.avg_total_spend",
+            "displayName": "Avg Total Spend"
+          },
+          {
+            "name": "customers_per_outlet",
+            "expr": "source.customers_per_outlet",
+            "displayName": "Customers Per Outlet"
+          },
+          {
+            "name": "expansion_rank",
+            "expr": "source.expansion_rank",
+            "displayName": "Expansion Rank"
+          },
+          {
+            "name": "recommendation",
+            "expr": "source.recommendation",
+            "displayName": "Recommendation"
+          },
+          {
+            "name": "rationale",
+            "expr": "source.rationale",
+            "displayName": "Rationale"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "7bbdd038",
+      "displayName": "expansion_final_recommendation",
+      "config": {
+        "version": "1.1",
+        "source": "data_analysis_retail.gold.expansion_final_recommendation",
+        "dimensions": [
+          {
+            "name": "rank",
+            "expr": "source.rank",
+            "displayName": "Rank"
+          },
+          {
+            "name": "recommended_location",
+            "expr": "source.recommended_location",
+            "displayName": "Recommended Location"
+          },
+          {
+            "name": "current_outlets",
+            "expr": "source.current_outlets",
+            "displayName": "Current Outlets"
+          },
+          {
+            "name": "demand_signal",
+            "expr": "source.demand_signal",
+            "displayName": "Demand Signal"
+          },
+          {
+            "name": "avg_customer_spend",
+            "expr": "source.avg_customer_spend",
+            "displayName": "Avg Customer Spend"
+          },
+          {
+            "name": "current_gap_pct",
+            "expr": "source.current_gap_pct",
+            "displayName": "Current Gap Pct"
+          },
+          {
+            "name": "rationale",
+            "expr": "source.rationale",
+            "displayName": "Rationale"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    }
+  ],
+  "pages": [
+    {
+      "name": "d11255ab",
+      "displayName": "Gap_Analysis",
+      "layout": [
+        {
+          "widget": {
+            "name": "outlets-missing-target",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "bfec179e",
+                  "fields": [
+                    {
+                      "name": "performance_tier",
+                      "expression": "`performance_tier`"
+                    },
+                    {
+                      "name": "sum(gap_pct)",
+                      "expression": "SUM(`gap_pct`)"
+                    },
+                    {
+                      "name": "Outlet_ID",
+                      "expression": "`Outlet_ID`"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "IN_RANGE(`gap_pct`, NULL, 0D)"
+                    }
+                  ],
+                  "cubeGroupingSets": {
+                    "sets": [
+                      {
+                        "fieldNames": [
+                          "performance_tier"
+                        ]
+                      },
+                      {
+                        "fieldNames": [
+                          "Outlet_ID"
+                        ]
+                      }
+                    ]
+                  },
+                  "disaggregated": false,
+                  "orders": [
+                    {
+                      "direction": "ASC",
+                      "expression": "SUM(`gap_pct`)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Outlets missing target"
+              },
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "sum(gap_pct)",
+                  "displayName": "GAP %",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "y": {
+                  "fieldName": "Outlet_ID",
+                  "scale": {
+                    "type": "categorical",
+                    "sort": {
+                      "by": "measure",
+                      "measure": {
+                        "fieldName": "sum(gap_pct)"
+                      }
+                    }
+                  }
+                },
+                "color": {
+                  "fieldName": "performance_tier",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 3,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "total-outlets-missing-target-1",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "bfec179e",
+                  "fields": [
+                    {
+                      "name": "count(Outlet_ID)",
+                      "expression": "COUNT(`Outlet_ID`)"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "IN_RANGE(`gap_pct`, NULL, 0D)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": " Outlets Below Target"
+              },
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "count(Outlet_ID)",
+                  "style": {
+                    "color": {
+                      "themeColorType": "fontColor"
+                    }
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "worst-gap-percent",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "bfec179e",
+                  "fields": [
+                    {
+                      "name": "min(gap_pct)",
+                      "expression": "MIN(`gap_pct`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": " Worst Gap %"
+              },
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "min(gap_pct)"
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 4,
+            "y": 0,
+            "width": 4,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "total-sales-gap",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "bfec179e",
+                  "fields": [
+                    {
+                      "name": "sum(sales_gap)",
+                      "expression": "SUM(`sales_gap`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": " Total Sales Gap"
+              },
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(sales_gap)"
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 8,
+            "y": 0,
+            "width": 4,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "sales-gap-percent-by-outlet",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "bfec179e",
+                  "fields": [
+                    {
+                      "name": "performance_tier",
+                      "expression": "`performance_tier`"
+                    },
+                    {
+                      "name": "Outlet_ID",
+                      "expression": "`Outlet_ID`"
+                    },
+                    {
+                      "name": "sum(gap_pct)",
+                      "expression": "SUM(`gap_pct`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Sales Gap % by Outlet"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "Outlet_ID",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(gap_pct)",
+                  "displayName": "GAP %",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "performance_tier",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 9,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "sales-gap-by-region",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "9f1952c4",
+                  "fields": [
+                    {
+                      "name": "region",
+                      "expression": "`region`"
+                    },
+                    {
+                      "name": "sum(outlets_missing_target)",
+                      "expression": "SUM(`outlets_missing_target`)"
+                    },
+                    {
+                      "name": "sum(region_gap_pct)",
+                      "expression": "SUM(`region_gap_pct`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Sales Gap % by Region"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "region",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(region_gap_pct)",
+                  "displayName": "Region GAP %",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "region",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                },
+                "extra": [
+                  {
+                    "fieldName": "sum(outlets_missing_target)"
+                  }
+                ]
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 9,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "outlet-performance-distribution",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "bfec179e",
+                  "fields": [
+                    {
+                      "name": "count(Outlet_ID)",
+                      "expression": "COUNT(`Outlet_ID`)"
+                    },
+                    {
+                      "name": "performance_tier",
+                      "expression": "`performance_tier`"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`performance_tier` IS NULL OR `performance_tier` NOT IN ('On/Above Target')"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Outlet Performance Distribution"
+              },
+              "widgetType": "pie",
+              "encodings": {
+                "angle": {
+                  "fieldName": "count(Outlet_ID)",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "performance_tier",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                },
+                "extra": [
+                  {
+                    "fieldName": "performance_tier"
+                  },
+                  {
+                    "fieldName": "count(Outlet_ID)"
+                  }
+                ]
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 15,
+            "width": 6,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    },
+    {
+      "name": "9e1d3865",
+      "displayName": "Outlet_Performance",
+      "layout": [
+        {
+          "widget": {
+            "name": "top-10-performers",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "fcc53d69",
+                  "fields": [
+                    {
+                      "name": "Outlet_ID",
+                      "expression": "`Outlet_ID`"
+                    },
+                    {
+                      "name": "sum(actual_sales)",
+                      "expression": "SUM(`actual_sales`)"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "IN_RANGE(`sales_rank`, NULL, 10D)"
+                    }
+                  ],
+                  "disaggregated": false,
+                  "orders": [
+                    {
+                      "direction": "ASC",
+                      "expression": "SUM(`actual_sales`)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Top 10 Performers"
+              },
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "Outlet_ID",
+                  "displayName": "Outlet ID",
+                  "scale": {
+                    "type": "categorical",
+                    "sort": {
+                      "by": "measure",
+                      "measure": {
+                        "fieldName": "sum(actual_sales)"
+                      }
+                    }
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(actual_sales)",
+                  "displayName": "Actual Sales",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "all-outlet-rankings",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "fcc53d69",
+                  "fields": [
+                    {
+                      "name": "performance_label",
+                      "expression": "`performance_label`"
+                    },
+                    {
+                      "name": "Outlet_ID",
+                      "expression": "`Outlet_ID`"
+                    },
+                    {
+                      "name": "sum(gap_pct)",
+                      "expression": "SUM(`gap_pct`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "All Outlet Rankings"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "Outlet_ID",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(gap_pct)",
+                  "displayName": "GAP %",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "performance_label",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": false
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 6,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "monthly-sales-trend",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "a987963d",
+                  "fields": [
+                    {
+                      "name": "sales_month",
+                      "expression": "`sales_month`"
+                    },
+                    {
+                      "name": "sum(monthly_sales)",
+                      "expression": "SUM(`monthly_sales`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Monthly Sales Trend"
+              },
+              "mark": {
+                "marker": {
+                  "shape": "square"
+                },
+                "colors": [
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 3
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 2
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 3
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 4
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 5
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 6
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 7
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 8
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 9
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 10
+                  }
+                ]
+              },
+              "widgetType": "line",
+              "encodings": {
+                "x": {
+                  "fieldName": "sales_month",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(monthly_sales)",
+                  "displayName": "Monthly Sales",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "label": {
+                  "show": false
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 0,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "outlet-age-vs-performance",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "b5af9a6d",
+                  "fields": [
+                    {
+                      "name": "outlet_age_years",
+                      "expression": "`outlet_age_years`"
+                    },
+                    {
+                      "name": "gap_pct",
+                      "expression": "`gap_pct`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Outlet Age vs Performance"
+              },
+              "mark": {
+                "shape": "diamond",
+                "colors": [
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 2
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 2
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 3
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 4
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 5
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 6
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 7
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 8
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 9
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 10
+                  }
+                ],
+                "opacity": 1,
+                "size": 1.5
+              },
+              "widgetType": "scatter",
+              "encodings": {
+                "x": {
+                  "fieldName": "outlet_age_years",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "y": {
+                  "fieldName": "gap_pct",
+                  "displayName": "Gap %",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 12,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "age-category-summary",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "b5af9a6d",
+                  "fields": [
+                    {
+                      "name": "age_category",
+                      "expression": "`age_category`"
+                    },
+                    {
+                      "name": "avg(gap_pct)",
+                      "expression": "AVG(`gap_pct`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Age Category Summary"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "age_category",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "avg(gap_pct)",
+                  "displayName": "GAP %",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 12,
+            "width": 6,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    },
+    {
+      "name": "76f2177a",
+      "displayName": "Employee_KPI",
+      "layout": [
+        {
+          "widget": {
+            "name": "kpi-achievement-by-outlet",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "7c69364d",
+                  "fields": [
+                    {
+                      "name": "kpi_status",
+                      "expression": "`kpi_status`"
+                    },
+                    {
+                      "name": "Outlet_ID",
+                      "expression": "`Outlet_ID`"
+                    },
+                    {
+                      "name": "sum(avg_kpi_achievement)",
+                      "expression": "SUM(`avg_kpi_achievement`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "KPI Achievement by Outlet"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "Outlet_ID",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(avg_kpi_achievement)",
+                  "displayName": "KPI Achievment",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "kpi_status",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi-status-distribution",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "7c69364d",
+                  "fields": [
+                    {
+                      "name": "count(Outlet_ID)",
+                      "expression": "COUNT(`Outlet_ID`)"
+                    },
+                    {
+                      "name": "kpi_status",
+                      "expression": "`kpi_status`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "KPI Status Distribution"
+              },
+              "widgetType": "pie",
+              "encodings": {
+                "angle": {
+                  "fieldName": "count(Outlet_ID)",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "kpi_status",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 6,
+            "width": 5,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "top-10-employees-1",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "55b184a2",
+                  "fields": [
+                    {
+                      "name": "Position",
+                      "expression": "`Position`"
+                    },
+                    {
+                      "name": "Employee_ID",
+                      "expression": "`Employee_ID`"
+                    },
+                    {
+                      "name": "sum(KPI_Achievement_Pct)",
+                      "expression": "SUM(`KPI_Achievement_Pct`)"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "IN_RANGE(`rank_top`, NULL, 10)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Top 10 Employees"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "Employee_ID",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(KPI_Achievement_Pct)",
+                  "displayName": "KPI Achievement %",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "Position",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 5,
+            "y": 6,
+            "width": 7,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "bottom-10-employees-2",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "55b184a2",
+                  "fields": [
+                    {
+                      "name": "Position",
+                      "expression": "`Position`"
+                    },
+                    {
+                      "name": "Employee_ID",
+                      "expression": "`Employee_ID`"
+                    },
+                    {
+                      "name": "sum(KPI_Achievement_Pct)",
+                      "expression": "SUM(`KPI_Achievement_Pct`)"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "IN_RANGE(`rank_bottom`, NULL, 10)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Bottom 10 Employees"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "Employee_ID",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(KPI_Achievement_Pct)",
+                  "displayName": "KPI Achievement %",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "Position",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 5,
+            "y": 12,
+            "width": 7,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi-vs-sales-correlation",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "e52e40ac",
+                  "fields": [
+                    {
+                      "name": "Store_Type",
+                      "expression": "`Store_Type`"
+                    },
+                    {
+                      "name": "avg_kpi_achievement",
+                      "expression": "`avg_kpi_achievement`"
+                    },
+                    {
+                      "name": "sales_gap_pct",
+                      "expression": "`sales_gap_pct`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "KPI vs Sales Correlation"
+              },
+              "mark": {
+                "shape": "star",
+                "size": 1.4
+              },
+              "widgetType": "scatter",
+              "encodings": {
+                "x": {
+                  "fieldName": "avg_kpi_achievement",
+                  "displayName": "Average KPI Achievement",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "y": {
+                  "fieldName": "sales_gap_pct",
+                  "displayName": "Sales Gap %",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "Store_Type",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 12,
+            "width": 5,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    },
+    {
+      "name": "8a828536",
+      "displayName": "Customer Demographics",
+      "layout": [
+        {
+          "widget": {
+            "name": "most-valuable-segments",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "3f6d6b3f",
+                  "fields": [
+                    {
+                      "name": "Gender",
+                      "expression": "`Gender`"
+                    },
+                    {
+                      "name": "Age_Group",
+                      "expression": "`Age_Group`"
+                    },
+                    {
+                      "name": "sum(avg_total_spend)",
+                      "expression": "SUM(`avg_total_spend`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Most Valuable Segments"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "Age_Group",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(avg_total_spend)",
+                  "displayName": "Average Total Spend",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "Gender",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": false
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 7,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "segment-tier-distribution",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "3f6d6b3f",
+                  "fields": [
+                    {
+                      "name": "count(customer_count)",
+                      "expression": "COUNT(`customer_count`)"
+                    },
+                    {
+                      "name": "segment_tier",
+                      "expression": "`segment_tier`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Segment Tier Distribution"
+              },
+              "widgetType": "pie",
+              "encodings": {
+                "angle": {
+                  "fieldName": "count(customer_count)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "Customer Count"
+                },
+                "color": {
+                  "fieldName": "segment_tier",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 7,
+            "y": 0,
+            "width": 5,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "spending-by-age-group",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "8d5b8fc6",
+                  "fields": [
+                    {
+                      "name": "Age_Group",
+                      "expression": "`Age_Group`"
+                    },
+                    {
+                      "name": "sum(avg_total_spend)",
+                      "expression": "SUM(`avg_total_spend`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Spending by Age Group"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "Age_Group",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(avg_total_spend)",
+                  "displayName": "Average Total Spend",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "Age_Group",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 6,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "avg-basket-value-by-age",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "8d5b8fc6",
+                  "fields": [
+                    {
+                      "name": "Age_Group",
+                      "expression": "`Age_Group`"
+                    },
+                    {
+                      "name": "sum(avg_basket_value)",
+                      "expression": "SUM(`avg_basket_value`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Average Basket Value by Age"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "Age_Group",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(avg_basket_value)",
+                  "displayName": "Average Basket Value",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "Age_Group",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 6,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "location-purchase-patterns",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "263b1c10",
+                  "fields": [
+                    {
+                      "name": "Location",
+                      "expression": "`Location`"
+                    },
+                    {
+                      "name": "sum(avg_total_spend)",
+                      "expression": "SUM(`avg_total_spend`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Location Purchase Patterns"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "Location",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(avg_total_spend)",
+                  "displayName": "Average Total Spend",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "Location",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 12,
+            "width": 12,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    },
+    {
+      "name": "5e29a2d9",
+      "displayName": "Expansion Recommendation",
+      "layout": [
+        {
+          "widget": {
+            "name": "customers-per-outlet-by-location",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "7623bd66",
+                  "fields": [
+                    {
+                      "name": "recommendation",
+                      "expression": "`recommendation`"
+                    },
+                    {
+                      "name": "Location",
+                      "expression": "`Location`"
+                    },
+                    {
+                      "name": "sum(customers_per_outlet)",
+                      "expression": "SUM(`customers_per_outlet`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Customers per Outlet by Location"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "Location",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(customers_per_outlet)",
+                  "displayName": "Customers Per Outlet",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "recommendation",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": false
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 4,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "avg-sales-per-outlet-by-location-1",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "7623bd66",
+                  "fields": [
+                    {
+                      "name": "recommendation",
+                      "expression": "`recommendation`"
+                    },
+                    {
+                      "name": "Location",
+                      "expression": "`Location`"
+                    },
+                    {
+                      "name": "sum(avg_sales_per_outlet)",
+                      "expression": "SUM(`avg_sales_per_outlet`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Average Sales per Outlet by Location"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "Location",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(avg_sales_per_outlet)",
+                  "displayName": "Average Sales per Outlet",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "recommendation",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 4,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "avg-gap-by-location",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e77e1e",
+                  "fields": [
+                    {
+                      "name": "gap_status",
+                      "expression": "`gap_status`"
+                    },
+                    {
+                      "name": "Location",
+                      "expression": "`Location`"
+                    },
+                    {
+                      "name": "sum(avg_gap_pct)",
+                      "expression": "SUM(`avg_gap_pct`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Average Gap % by Location"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "Location",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(avg_gap_pct)",
+                  "displayName": "Average GAP %",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "gap_status",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": false
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 10,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "avg-customer-spend-by-location-1",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "7623bd66",
+                  "fields": [
+                    {
+                      "name": "recommendation",
+                      "expression": "`recommendation`"
+                    },
+                    {
+                      "name": "Location",
+                      "expression": "`Location`"
+                    },
+                    {
+                      "name": "sum(avg_total_spend)",
+                      "expression": "SUM(`avg_total_spend`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Avg Customer Spend by Location"
+              },
+              "mark": {
+                "layout": "stack"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "Location",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(avg_total_spend)",
+                  "format": {
+                    "type": "number-plain",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    }
+                  },
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "recommendation",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": false
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 10,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "top-3-recommended-expansion-locations",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "7bbdd038",
+                  "fields": [
+                    {
+                      "name": "rank",
+                      "expression": "`rank`"
+                    },
+                    {
+                      "name": "recommended_location",
+                      "expression": "`recommended_location`"
+                    },
+                    {
+                      "name": "current_outlets",
+                      "expression": "`current_outlets`"
+                    },
+                    {
+                      "name": "demand_signal",
+                      "expression": "`demand_signal`"
+                    },
+                    {
+                      "name": "avg_customer_spend",
+                      "expression": "`avg_customer_spend`"
+                    },
+                    {
+                      "name": "current_gap_pct",
+                      "expression": "`current_gap_pct`"
+                    },
+                    {
+                      "name": "rationale",
+                      "expression": "`rationale`"
+                    },
+                    {
+                      "name": "measure(count)",
+                      "expression": "MEASURE(`count`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "showTitle": true,
+                "headerAlignment": "center",
+                "title": "Top 3 Recommended Expansion Locations"
+              },
+              "bandedRows": {
+                "enabled": true
+              },
+              "headerStyle": {
+                "backgroundColor": {
+                  "themeColorType": "visualizationColors",
+                  "position": 6
+                }
+              },
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "rank"
+                  },
+                  {
+                    "fieldName": "recommended_location"
+                  },
+                  {
+                    "fieldName": "current_outlets"
+                  },
+                  {
+                    "fieldName": "demand_signal"
+                  },
+                  {
+                    "fieldName": "avg_customer_spend"
+                  },
+                  {
+                    "fieldName": "current_gap_pct"
+                  },
+                  {
+                    "fieldName": "rationale"
+                  },
+                  {
+                    "fieldName": "measure(count)"
+                  }
+                ]
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#FFFFFF"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 12,
+            "height": 4
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    }
+  ],
+  "uiSettings": {
+    "theme": {
+      "widgetHeaderAlignment": "ALIGNMENT_UNSPECIFIED"
+    },
+    "applyModeEnabled": false
+  }
+}
