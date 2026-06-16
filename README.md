@@ -142,6 +142,8 @@ Evaluates outlet performance against predefined sales targets.
 - Slightly Underperforming Outlets
 - Regional Performance Heatmaps
 
+![Gap_Analysis](Dashboard_Picture/Gap_Analysis.jpg)
+
 ---
 
 ## 2️⃣ Outlet Performance Analysis
@@ -160,6 +162,8 @@ Analyzes store-level operational effectiveness.
 - Underperforming Stores
 - Performance Distribution
 - Trend Analysis
+
+![Outlet Performance ](Dashboard_Picture/Outlet_Performance_page-0001.jpg)
 
 ---
 
@@ -180,6 +184,8 @@ Measures workforce effectiveness across locations.
 - KPI Risk Segments
 - Workforce Productivity Insights
 
+![Employee KPI Analysis](Dashboard_Picture/Employee_KPI_page-0001.jpg)
+
 ---
 
 ## 4️⃣ Customer Demographic Analysis
@@ -198,6 +204,8 @@ Examines purchasing behavior and customer value.
 - Mid Value Customers
 - Low Value Customers
 - Customer Spending Patterns
+
+![Customer Demographic Analysis](Dashboard_Picture/Customer_demograpics_page-0001.jpg)
 
 ---
 
@@ -220,6 +228,8 @@ Identifies high-potential regions for future retail expansion.
 | 1 | Sylhet | Highest demand concentration with limited outlet coverage |
 | 2 | Mymensingh | Strong outlet performance indicating unmet demand |
 | 3 | Rajshahi | High customer density with strong spending behavior |
+
+![Expansion Recommendation Engine](Dashboard_Picture/Expansion_Recomendation_page-0001.jpg)
 
 ---
 
