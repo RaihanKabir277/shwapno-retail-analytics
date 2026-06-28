@@ -1068,7 +1068,8 @@
                   "fieldName": "count(Outlet_ID)",
                   "style": {
                     "color": {
-                      "themeColorType": "fontColor"
+                      "themeColorType": "visualizationColors",
+                      "position": 3
                     }
                   }
                 }
@@ -1118,7 +1119,13 @@
               "widgetType": "counter",
               "encodings": {
                 "value": {
-                  "fieldName": "min(gap_pct)"
+                  "fieldName": "min(gap_pct)",
+                  "style": {
+                    "color": {
+                      "themeColorType": "visualizationColors",
+                      "position": 3
+                    }
+                  }
                 }
               },
               "data": {
@@ -1166,7 +1173,13 @@
               "widgetType": "counter",
               "encodings": {
                 "value": {
-                  "fieldName": "sum(sales_gap)"
+                  "fieldName": "sum(sales_gap)",
+                  "style": {
+                    "color": {
+                      "themeColorType": "visualizationColors",
+                      "position": 3
+                    }
+                  }
                 }
               },
               "data": {
